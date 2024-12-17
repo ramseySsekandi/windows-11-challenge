@@ -14,8 +14,18 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-container {
+  background-image: url('../../public/assets/images/lockscreen.jpg');
 }
